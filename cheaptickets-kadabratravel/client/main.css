@@ -1,0 +1,105 @@
+#login-buttons {
+  margin: 18px;
+  font-size: 14px;
+}
+
+.list-group-item {
+  height: 55px;
+}
+
+.bins-share {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.bins-share .input-group {
+  width: 30%;
+}
+
+.bins-share > div {
+  margin: 0 10px;
+}
+
+/* Our app */
+.nav {
+  background: white;
+  font: black;
+}
+
+.carouselImage {
+  max-height: 340px;
+}
+      
+.carouselTravel {
+  background-image: url('cheap-tickets.png');
+  background-size: cover;
+  height: 100%;
+  
+}
+.carousel {
+  position: relative;
+  margin-bottom:20px;
+  top:0;
+}
+#mycarousel {
+  margin:0;
+  padding:0;
+}
+
+.without_bottom_padding {
+  padding-bottom: 0;
+}
+
+.makeCenter {
+  padding-top: 30px;
+  color: white;
+  font-size: 26px;
+  line-height: 150%;
+}
+
+.makeCenter:hover {
+  text-decoration: underline;
+}
+
+.containerPadding {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.backto{background:#039; padding:12px 0; color:#fff}
+.backto a{color:#FFF; text-decoration:none}
+.cards-row{padding-top:40px; padding-bottom:20px; background:#eee}
+
+
+
+.thumbnail{padding:0; border-radius:0; border:none; box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12) }
+.thumbnail> .imageProp > img{width:100%; display:block}
+.thumbnail h3{font-size:26px}
+.thumbnail h3,.card-description{margin:0; padding:8px 0; border-bottom:solid 1px #eee; text-align:justify}
+.thumbnail p{padding-top:8px; font-size:20px}
+.thumbnail .btn{border-radius:0; box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12); font-size:20px}
+
+.imageProp {
+  position: relative;
+}
+
+.readMore {
+  position:absolute;
+  bottom:0;
+  right:0;
+    background: rgba(255, 0, 0, 0.57);
+    width:100%;
+    height:20%;
+    padding:2%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}
+
+
+
